@@ -1,1 +1,407 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ZaZiZi | Enterprise Architecture & CIO Advisory</title><meta name="description" content="Enterprise Architecture, Integration Architecture and CIO Advisory services."><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body><header class="header"><div class="container nav"><div class="logo">ZaZiZi</div><nav><a href="#services" data-i18n="navigation.services"></a><a href="#expertise" data-i18n="navigation.expertise"></a><a href="#approach" data-i18n="navigation.approach"></a><a href="#about" data-i18n="navigation.about"></a><a href="#contact" data-i18n="navigation.contact"></a></nav><div class="lang-switch"><button onclick="switchLanguage('en')">EN</button><button onclick="switchLanguage('hu')">HU</button></div></div></header><section class="hero"><div class="container"><h1 data-i18n="hero.title"></h1><p data-i18n="hero.subtitle"></p></div></section><section id="services" class="section"><div class="container"><h2 data-i18n="services.title"></h2><div class="cards" id="services-container"></div></div></section><section id="expertise" class="section light"><div class="container"><h2 data-i18n="expertise.title"></h2><div class="cards" id="expertise-container"></div></div></section><section id="approach" class="section"><div class="container"><h2 data-i18n="approach.title"></h2><div class="timeline"><div data-i18n="approach.assess"></div><div data-i18n="approach.strategize"></div><div data-i18n="approach.architect"></div><div data-i18n="approach.execute"></div><div data-i18n="approach.optimize"></div></div></div></section><section id="about" class="section light"><div class="container"><h2 data-i18n="about.title"></h2><p data-i18n="about.description"></p></div></section><section id="references" class="section"><div class="container"><h2 data-i18n="references.title"></h2><div class="cards" id="references-container"></div></div></section><section id="contact" class="section contact"><div class="container"><h2>Contact</h2><p><strong>Tamas Török</strong></p><p><a href="mailto:tamas.torok@zizipakk.com">tamas.torok@zizipakk.com</a></p><p>+36 20 953 3255</p></div></section><script src="js/content-loader.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        ZaZiZi | Enterprise Architecture & CIO Advisory
+    </title>
+
+    <meta name="description"
+          content="Enterprise Architecture, Integration Architecture and CIO Advisory services.">
+
+    <meta property="og:title"
+          content="ZaZiZi">
+
+    <meta property="og:description"
+          content="Enterprise Architecture. Integration Excellence. Technology Leadership.">
+
+    <meta property="og:type"
+          content="website">
+
+    <link rel="icon"
+          href="assets/favicon.svg">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#"
+           class="logo">
+            ZaZiZi
+        </a>
+
+        <nav id="menu">
+
+            <a href="#services"
+               data-i18n="navigation.services"></a>
+
+            <a href="#expertise"
+               data-i18n="navigation.expertise"></a>
+
+            <a href="#approach"
+               data-i18n="navigation.approach"></a>
+
+            <a href="#references"
+               data-i18n="navigation.references"></a>
+
+            <a href="#about"
+               data-i18n="navigation.about"></a>
+
+            <a href="#contact"
+               data-i18n="navigation.contact"></a>
+
+        </nav>
+
+        <div class="nav-tools">
+
+            <button class="lang-btn"
+                    onclick="switchLanguage('en')">
+                EN
+            </button>
+
+            <button class="lang-btn"
+                    onclick="switchLanguage('hu')">
+                HU
+            </button>
+
+            <button id="hamburger"
+                    class="hamburger">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="eyebrow"
+                 data-i18n="hero.eyebrow">
+            </div>
+
+            <h1 data-i18n="hero.title"></h1>
+
+            <p class="hero-subtitle"
+               data-i18n="hero.subtitle"></p>
+
+            <div class="hero-actions">
+
+                <a href="#contact"
+                   class="btn btn-primary"
+                   data-i18n="hero.primaryButton"></a>
+
+                <a href="#services"
+                   class="btn btn-secondary"
+                   data-i18n="hero.secondaryButton"></a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-graphic">
+
+            <img src="assets/hero-network.svg"
+                 alt="Architecture network visualization">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CHALLENGES -->
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <h2 data-i18n="challenges.title"></h2>
+
+        <div id="challenges-container"
+             class="card-grid">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services"
+         class="section">
+
+    <div class="container">
+
+        <h2 data-i18n="services.title"></h2>
+
+        <div id="services-container"
+             class="card-grid">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPERTISE -->
+
+<section id="expertise"
+         class="section section-light">
+
+    <div class="container">
+
+        <h2 data-i18n="expertise.title"></h2>
+
+        <div id="expertise-container"
+             class="card-grid">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- APPROACH -->
+
+<section id="approach"
+         class="section">
+
+    <div class="container">
+
+        <h2 data-i18n="approach.title"></h2>
+
+        <div class="timeline">
+
+            <div data-i18n="approach.assess"></div>
+
+            <div data-i18n="approach.strategize"></div>
+
+            <div data-i18n="approach.architect"></div>
+
+            <div data-i18n="approach.execute"></div>
+
+            <div data-i18n="approach.optimize"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PRINCIPLES -->
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <h2 data-i18n="principles.title"></h2>
+
+        <div id="principles-container"
+             class="card-grid">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- REFERENCES -->
+
+<section id="references"
+         class="section">
+
+    <div class="container">
+
+        <h2 data-i18n="references.title"></h2>
+
+        <div id="references-container"
+             class="card-grid">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about"
+         class="section section-light">
+
+    <div class="container narrow">
+
+        <h2 data-i18n="about.title"></h2>
+
+        <p data-i18n="about.description"></p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact"
+         class="section">
+
+    <div class="container narrow">
+
+        <h2 data-i18n="contact.title"></h2>
+
+        <p data-i18n="contact.lead"></p>
+
+        <div class="contact-card">
+
+            <h3>Tamas Török</h3>
+
+            <p>
+
+                <a href="mailto:tamas.torok@zizipakk.com">
+                    tamas.torok@zizipakk.com
+                </a>
+
+            </p>
+
+            <p>
+                +36 20 953 3255
+            </p>
+
+        </div>
+
+        <!-- <div class="contact-card">
+
+            <h3>Tamas Török</h3>
+
+            <p>
+                <a href="mailto:tamas.torok@zizipakk.com">
+                    tamas.torok@zizipakk.com
+                </a>
+            </p>
+
+            <p>
+                +36 20 953 3255
+            </p>
+
+        </div>
+
+        <form id="contact-form"
+            class="contact-form">
+
+            <input
+                    type="hidden"
+                    name="access_key"
+                    value="WEB3FORMS_ACCESS_KEY">
+
+            <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required>
+
+            <input
+                    type="email"
+                    name="email"
+                    placeholder="Your email"
+                    required>
+
+            <input
+                    type="text"
+                    name="company"
+                    placeholder="Company">
+
+            <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="How can we help?"
+                    required>
+            </textarea>
+
+            <button
+                    type="submit"
+                    class="btn btn-primary">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+        <div id="form-status"></div> -->
+
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <h3>ZaZiZi</h3>
+
+            <p>
+                Enterprise Architecture
+            </p>
+
+            <p>
+                Integration Architecture
+            </p>
+
+            <p>
+                CIO Advisory
+            </p>
+
+        </div>
+
+        <div>
+
+            <p>
+                Budapest, Hungary
+            </p>
+
+            <p>
+                tamas.torok@zizipakk.com
+            </p>
+
+            <p>
+                +36 20 953 3255
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/i18n.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
