@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "services": "Services",
+    "expertise": "Expertise",
+    "approach": "Approach",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Enterprise Architecture. Integration Excellence. Technology Leadership.",
+    "subtitle": "Helping organizations align business strategy, enterprise architecture and integration ecosystems."
+  },
+  "services": {
+    "title": "Services",
+    "items": [
+      {
+        "title": "Enterprise Architecture",
+        "description": "Target architecture, governance and modernization roadmaps."
+      },
+      {
+        "title": "Integration Architecture",
+        "description": "API strategy, event-driven architecture and enterprise integration."
+      },
+      {
+        "title": "CIO Advisory",
+        "description": "Technology leadership and strategic support."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Expertise",
+    "items": [
+      {
+        "title": "Enterprise Modernization",
+        "description": "Modernization of complex landscapes."
+      },
+      {
+        "title": "API Strategy",
+        "description": "Governance and lifecycle management."
+      }
+    ]
+  },
+  "approach": {
+    "title": "Approach",
+    "assess": "Assess",
+    "strategize": "Strategize",
+    "architect": "Architect",
+    "execute": "Execute",
+    "optimize": "Optimize"
+  },
+  "about": {
+    "title": "About",
+    "description": "Independent Enterprise Architect and CIO Advisor."
+  },
+  "references": {
+    "title": "References",
+    "items": [
+      {
+        "title": "National Lottery Operator",
+        "description": "Architecture modernization."
+      }
+    ]
+  }
+}
