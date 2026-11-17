@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "services": "Szolgáltatások",
+    "expertise": "Kompetenciák",
+    "approach": "Módszertan",
+    "references": "Referenciák",
+    "about": "Rólam",
+    "contact": "Kapcsolat"
+  },
+
+  "hero": {
+    "eyebrow": "Enterprise Architecture • Integration Architecture • CIO Advisory",
+    "title": "Architektúra döntések, amelyek gyorsítják az üzleti eredményeket.",
+    "subtitle": "Független tanácsadás vállalati architektúra, integrációs ökoszisztémák és IT működési modellek kialakításához.",
+    "primaryButton": "Kapcsolatfelvétel",
+    "secondaryButton": "Szolgáltatásaink"
+  },
+
+  "challenges": {
+    "title": "Amiben segíteni tudunk",
+    "items": [
+      {
+        "title": "Összetett Integrációs Környezet",
+        "description": "Széttagolt rendszerek, párhuzamos integrációk és növekvő működési komplexitás."
+      },
+      {
+        "title": "Architekturális Adósság",
+        "description": "Korábbi technológiai döntések, amelyek akadályozzák a skálázhatóságot és a fejlődést."
+      },
+      {
+        "title": "Bizonytalan Modernizációs Irány",
+        "description": "Nehézségek a prioritások meghatározásában és az érintettek összehangolásában."
+      },
+      {
+        "title": "Governance Kihívások",
+        "description": "Hiányzó sztenderdek, kontrollok és architektúra irányítási folyamatok."
+      }
+    ]
+  },
+
+  "services": {
+    "title": "Szolgáltatásaink",
+    "items": [
+      {
+        "title": "Enterprise Architecture",
+        "description": "Üzleti célok, technológiai befektetések és architektúra döntések összehangolása strukturált vállalati architektúra megközelítéssel."
+      },
+      {
+        "title": "Integration Architecture",
+        "description": "Skálázható integrációs ökoszisztémák kialakítása API-k, üzenetkezelő platformok és eseményvezérelt architektúrák alkalmazásával."
+      },
+      {
+        "title": "CIO Advisory",
+        "description": "Független stratégiai tanácsadás CIO-k és technológiai vezetők számára."
+      }
+    ]
+  },
+
+  "expertise": {
+    "title": "Kompetenciák",
+    "items": [
+      {
+        "title": "Enterprise Integration",
+        "description": "Kafka, MQ, JMS, API platformok és vállalati integrációs minták."
+      },
+      {
+        "title": "Architecture Governance",
+        "description": "Architecture Review Boardok, sztenderdek és governance működési modellek."
+      },
+      {
+        "title": "Modernizáció",
+        "description": "Legacy rendszerek modernizációja és transzformációs roadmapek."
+      },
+      {
+        "title": "Cloud Architecture",
+        "description": "Felhőstratégia, migráció és működési modellek."
+      },
+      {
+        "title": "Technology Strategy",
+        "description": "Üzleti célokhoz igazított technológiai roadmapek és befektetési tervek."
+      },
+      {
+        "title": "Solution Architecture",
+        "description": "Komplex vállalati platformok és
