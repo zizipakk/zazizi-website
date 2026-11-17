@@ -91,7 +91,7 @@ function renderCards(
  */
 function renderDynamicSections(content) {
 
-    renderCards(
+    /* renderCards(
         "challenges-container",
         content.challenges.items
     );
@@ -114,6 +114,31 @@ function renderDynamicSections(content) {
     renderCards(
         "references-container",
         content.references.items
+    ); */
+
+    renderCards(
+        "challenges-container",
+        content.challenges?.items || []
+    );
+
+    renderCards(
+        "services-container",
+        content.services?.items || []
+    );
+
+    renderCards(
+        "expertise-container",
+        content.expertise?.items || []
+    );
+
+    renderCards(
+        "principles-container",
+        content.principles?.items || []
+    );
+
+    renderCards(
+        "references-container",
+        content.references?.items || []
     );
 }
 
