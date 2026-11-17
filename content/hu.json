@@ -1,64 +1,151 @@
 {
   "navigation": {
-    "services": "Services",
-    "expertise": "Expertise",
-    "approach": "Approach",
-    "about": "About",
-    "contact": "Contact"
+    "services": "Szolgáltatások",
+    "expertise": "Kompetenciák",
+    "approach": "Módszertan",
+    "references": "Referenciák",
+    "about": "Rólam",
+    "contact": "Kapcsolat"
   },
+
   "hero": {
-    "title": "Enterprise Architecture. Integration Excellence. Technology Leadership.",
-    "subtitle": "Helping organizations align business strategy, enterprise architecture and integration ecosystems."
+    "eyebrow": "Enterprise Architecture • Integration Architecture • CIO Advisory",
+    "title": "Architektúra döntések, amelyek gyorsítják az üzleti eredményeket.",
+    "subtitle": "Független tanácsadás vállalati architektúra, integrációs ökoszisztémák és IT működési modellek kialakításához.",
+    "primaryButton": "Kapcsolatfelvétel",
+    "secondaryButton": "Szolgáltatásaink"
   },
+
+  "challenges": {
+    "title": "Amiben segíteni tudunk",
+    "items": [
+      {
+        "title": "Összetett Integrációs Környezet",
+        "description": "Széttagolt rendszerek, párhuzamos integrációk és növekvő működési komplexitás."
+      },
+      {
+        "title": "Architekturális Adósság",
+        "description": "Korábbi technológiai döntések, amelyek akadályozzák a skálázhatóságot és a fejlődést."
+      },
+      {
+        "title": "Bizonytalan Modernizációs Irány",
+        "description": "Nehézségek a prioritások meghatározásában és az érintettek összehangolásában."
+      },
+      {
+        "title": "Governance Kihívások",
+        "description": "Hiányzó sztenderdek, kontrollok és architektúra irányítási folyamatok."
+      }
+    ]
+  },
+
   "services": {
-    "title": "Services",
+    "title": "Szolgáltatásaink",
     "items": [
       {
         "title": "Enterprise Architecture",
-        "description": "Target architecture, governance and modernization roadmaps."
+        "description": "Üzleti célok, technológiai befektetések és architektúra döntések összehangolása strukturált vállalati architektúra megközelítéssel."
       },
       {
         "title": "Integration Architecture",
-        "description": "API strategy, event-driven architecture and enterprise integration."
+        "description": "Skálázható integrációs ökoszisztémák kialakítása API-k, üzenetkezelő platformok és eseményvezérelt architektúrák alkalmazásával."
       },
       {
         "title": "CIO Advisory",
-        "description": "Technology leadership and strategic support."
+        "description": "Független stratégiai tanácsadás CIO-k és technológiai vezetők számára."
       }
     ]
   },
+
   "expertise": {
-    "title": "Expertise",
+    "title": "Kompetenciák",
     "items": [
       {
-        "title": "Enterprise Modernization",
-        "description": "Modernization of complex landscapes."
+        "title": "Enterprise Integration",
+        "description": "Kafka, MQ, JMS, API platformok és vállalati integrációs minták."
       },
       {
-        "title": "API Strategy",
-        "description": "Governance and lifecycle management."
+        "title": "Architecture Governance",
+        "description": "Architecture Review Boardok, sztenderdek és governance működési modellek."
+      },
+      {
+        "title": "Modernizáció",
+        "description": "Legacy rendszerek modernizációja és transzformációs roadmapek."
+      },
+      {
+        "title": "Cloud Architecture",
+        "description": "Felhőstratégia, migráció és működési modellek."
+      },
+      {
+        "title": "Technology Strategy",
+        "description": "Üzleti célokhoz igazított technológiai roadmapek és befektetési tervek."
+      },
+      {
+        "title": "Solution Architecture",
+        "description": "Komplex vállalati platformok és rendszerek megtervezése."
       }
     ]
   },
+
   "approach": {
-    "title": "Approach",
-    "assess": "Assess",
-    "strategize": "Strategize",
-    "architect": "Architect",
-    "execute": "Execute",
-    "optimize": "Optimize"
+    "title": "Módszertanunk",
+    "assess": "Felmérés",
+    "strategize": "Stratégia",
+    "architect": "Tervezés",
+    "execute": "Megvalósítás",
+    "optimize": "Optimalizáció"
   },
-  "about": {
-    "title": "About",
-    "description": "Independent Enterprise Architect and CIO Advisor."
-  },
-  "references": {
-    "title": "References",
+
+  "principles": {
+    "title": "Alapelveink",
     "items": [
       {
-        "title": "National Lottery Operator",
-        "description": "Architecture modernization."
+        "title": "Business First",
+        "description": "A technológiai döntéseknek üzleti eredményeket kell támogatniuk."
+      },
+      {
+        "title": "Független Tanácsadás",
+        "description": "Ajánlásainkat az ügyfél érdekei vezérlik, nem gyártói szempontok."
+      },
+      {
+        "title": "Fenntartható Architektúra",
+        "description": "A hosszú távon fenntartható működés fontosabb a rövid távú optimalizációnál."
+      },
+      {
+        "title": "Pragmatikus Transzformáció",
+        "description": "Az innováció és az üzleti realitások egyensúlya."
       }
     ]
+  },
+
+  "references": {
+    "title": "Referenciák",
+    "items": [
+      {
+        "title": "Nemzeti Lottótársaság",
+        "description": "Vállalati architektúra modernizációs kezdeményezések támogatása üzletkritikus rendszerek esetében."
+      },
+      {
+        "title": "Pénzügyi Szolgáltató",
+        "description": "Integrációs stratégia és API governance modell kialakítása."
+      },
+      {
+        "title": "Biztosítótársaság",
+        "description": "Célarchitektúra és technológiai roadmap meghatározása."
+      },
+      {
+        "title": "Közszolgáltató Szervezet",
+        "description": "Integrációs stratégia és platform modernizációs tanácsadás."
+      }
+    ]
+  },
+
+  "about": {
+    "title": "Rólam",
+    "description": "Független Enterprise Architect és CIO Advisor szakemberként támogatom a szervezeteket üzleti céljaik, architektúra döntéseik és technológiai megvalósításuk összehangolásában. Tapasztalatom kiterjed a vállalati modernizációra, integrációs architektúrára és technológiai stratégiára."
+  },
+
+  "contact": {
+    "title": "Kezdjünk Beszélgetni",
+    "lead": "Legyen szó transzformációs programról, integrációs környezet modernizációjáról vagy vállalati architektúra fejlesztéséről, örömmel egyeztetünk az Ön céljairól."
   }
 }
