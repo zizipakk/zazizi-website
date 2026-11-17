@@ -1,0 +1,151 @@
+{
+  "navigation": {
+    "services": "Services",
+    "expertise": "Expertise",
+    "approach": "Approach",
+    "references": "References",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "eyebrow": "Enterprise Architecture • Integration Architecture • CIO Advisory",
+    "title": "Architecture decisions that accelerate business outcomes.",
+    "subtitle": "Independent advisory helping organizations design scalable enterprise architectures, modern integration ecosystems and effective technology operating models.",
+    "primaryButton": "Start the Conversation",
+    "secondaryButton": "Explore Services"
+  },
+
+  "challenges": {
+    "title": "Challenges We Help Solve",
+    "items": [
+      {
+        "title": "Complex Integration Landscapes",
+        "description": "Disconnected applications, duplicated integrations and increasing operational complexity."
+      },
+      {
+        "title": "Architecture Debt",
+        "description": "Technology decisions that limit scalability, agility and transformation capabilities."
+      },
+      {
+        "title": "Unclear Modernization Roadmaps",
+        "description": "Difficulty prioritizing investments and aligning stakeholders around a common vision."
+      },
+      {
+        "title": "Governance Challenges",
+        "description": "Lack of architecture standards, controls and effective technology governance."
+      }
+    ]
+  },
+
+  "services": {
+    "title": "How We Can Help",
+    "items": [
+      {
+        "title": "Enterprise Architecture",
+        "description": "Align business goals, technology investments and architectural decisions through a structured enterprise architecture practice."
+      },
+      {
+        "title": "Integration Architecture",
+        "description": "Build scalable integration ecosystems using APIs, messaging platforms and event-driven architectural patterns."
+      },
+      {
+        "title": "CIO Advisory",
+        "description": "Provide independent strategic guidance supporting technology leadership, governance and investment decisions."
+      }
+    ]
+  },
+
+  "expertise": {
+    "title": "Areas of Expertise",
+    "items": [
+      {
+        "title": "Enterprise Integration",
+        "description": "Kafka, MQ, JMS, API platforms and enterprise integration patterns."
+      },
+      {
+        "title": "Architecture Governance",
+        "description": "Architecture review boards, standards and governance operating models."
+      },
+      {
+        "title": "Modernization",
+        "description": "Legacy transformation and modernization roadmaps."
+      },
+      {
+        "title": "Cloud Architecture",
+        "description": "Cloud adoption strategies and operating models."
+      },
+      {
+        "title": "Technology Strategy",
+        "description": "Business-driven technology roadmaps and investment planning."
+      },
+      {
+        "title": "Solution Architecture",
+        "description": "Architecture design for complex platforms and enterprise solutions."
+      }
+    ]
+  },
+
+  "approach": {
+    "title": "Our Approach",
+    "assess": "Assess",
+    "strategize": "Strategize",
+    "architect": "Architect",
+    "execute": "Execute",
+    "optimize": "Optimize"
+  },
+
+  "principles": {
+    "title": "Our Principles",
+    "items": [
+      {
+        "title": "Business First",
+        "description": "Technology decisions must always support measurable business outcomes."
+      },
+      {
+        "title": "Independent Advice",
+        "description": "Recommendations are based on client needs, never on vendor incentives."
+      },
+      {
+        "title": "Sustainable Architecture",
+        "description": "Long-term maintainability is more important than short-term optimization."
+      },
+      {
+        "title": "Pragmatic Transformation",
+        "description": "Balancing innovation with operational reality and business priorities."
+      }
+    ]
+  },
+
+  "references": {
+    "title": "Selected Engagements",
+    "items": [
+      {
+        "title": "National Lottery Operator",
+        "description": "Supported enterprise architecture modernization initiatives across mission-critical business platforms."
+      },
+      {
+        "title": "Financial Services Institution",
+        "description": "Defined integration strategy and API governance models supporting future scalability."
+      },
+      {
+        "title": "Insurance Provider",
+        "description": "Established target architecture and technology roadmap for modernization initiatives."
+      },
+      {
+        "title": "Public Sector Organization",
+        "description": "Enterprise integration strategy and platform modernization advisory."
+      }
+    ]
+  },
+
+  "about": {
+    "title": "About",
+    "description": "Independent Enterprise Architect and CIO Advisor with extensive experience in enterprise modernization, integration architecture and technology strategy. Supporting organizations in aligning business priorities, architectural decisions and delivery execution."
+  },
+
+  "contact": {
+    "title": "Let's Start a Conversation",
+    "lead": "Whether you are planning a transformation initiative, modernizing your integration landscape or refining your enterprise architecture practice, we would be happy to discuss your objectives."
+  }
+}
